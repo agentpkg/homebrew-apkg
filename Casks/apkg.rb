@@ -3,7 +3,7 @@ cask "apkg" do
   name "apkg"
   desc "A package manager for coding agent skills, MCP servers, and subagents"
   homepage "https://github.com/agentpkg/apkg"
-  version "0.0.0"
+  version "0.0.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "apkg" do
     on_intel do
       url "https://github.com/agentpkg/apkg/releases/download/v#{version}/apkg-darwin-amd64.zip",
         verified: "github.com/agentpkg/apkg"
-      sha256 "c5506eaaf44bdeccb2c59d406ac790363197866a71b300da0a356ade3ada90e7"
+      sha256 "435d689b7828535c7748a3972bd92e0c554be03f4c062e988438b1c982e3476b"
     end
     on_arm do
       url "https://github.com/agentpkg/apkg/releases/download/v#{version}/apkg-darwin-arm64.zip",
         verified: "github.com/agentpkg/apkg"
-      sha256 "01057c24d53c98b895f715a8704ce45180f9eddf5d583e26ed5419d444ca4572"
+      sha256 "84f00b24e4fdfe6c2ce57d6f067fe0bd2c0aeff179c6b85574a70bfc770b0984"
     end
   end
 
@@ -28,12 +28,12 @@ cask "apkg" do
     on_intel do
       url "https://github.com/agentpkg/apkg/releases/download/v#{version}/apkg-linux-amd64.zip",
         verified: "github.com/agentpkg/apkg"
-      sha256 "d883232ae16dd64270213cc1607567b3cb2a76164439643b5d14f48e10df4282"
+      sha256 "f238417b4c5f28d4e4eb75bbd11f90a1f1ae54b14a11bca0f2a9e172ec6dda12"
     end
     on_arm do
       url "https://github.com/agentpkg/apkg/releases/download/v#{version}/apkg-linux-arm64.zip",
         verified: "github.com/agentpkg/apkg"
-      sha256 "803edbfdce496a080e5c924bc07b7d0b330ff6936f7ec73dcc965372cdd67880"
+      sha256 "a92bf3cae0a7440885aef5ae7119091403284a0cb21551e7f47335821ac206b2"
     end
   end
 
